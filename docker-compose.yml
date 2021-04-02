@@ -7,7 +7,7 @@ services:
      environment:
         - MYSQL_ROOT_PASSWORD="vilas@123"
   web:
-    image: apache
+    image: apache1
     build: ./app2
     depends_on:
        - db
